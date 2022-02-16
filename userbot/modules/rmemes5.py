@@ -461,23 +461,6 @@ async def typewriter(typew):
     await typew.edit("JAUHIN AJA AJG, BOCAH KYA DIA MAH")
     sleep(2)
     await typew.edit("TINGGALIN AJA YA AJG!!!!")
-
-@register(outgoing=True, pattern='^.asa(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("WOI SUNNA!!")
-    sleep(2)
-    await typew.edit("KALAU BILANGA PAKINTAKI RONG")
-    sleep(2)
-    await typew.edit("BILANGKO JUGA PAKINTAKI RONG SUNNAA!!")
-    sleep(2)
-    await typew.edit("KALAU NDA NU IKUTIKA, SIAP" MAMI KO")
-    sleep(2)
-    await typew.edit("ANGENE MKO IA SETANG!!! ")
-    sleep(2)
-    await typew.edit("HAHAHHA CANDA BANG BAANG BANGSATT")
-    sleep(2)
-    await typew.edit("🤣🤣🤣🤣🤣🤣")
     
     
 CMD_HELP.update({
